@@ -1,0 +1,58 @@
+[{
+	"layer": "top",
+	"position": "top",
+	"output": ["DP-6"],
+
+	"include": [
+		"/etc/xdg/waybar/default-modules.json"
+	],
+
+	"modules-center": [
+		"hyprland/workspaces"
+	],
+
+	"hyprland/workspaces": {
+        "disable-scroll": true,
+        "disable-markup" : false,
+        "format": "  {icon}  ",
+        "icon-size": 150,
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": []
+        }
+    }
+
+
+},
+{
+	"layer": "top",
+	"position": "top",
+	"output": ["DP-5"],
+
+	"include": [
+		"/etc/xdg/waybar/default-modules.json"
+	],
+
+	"modules-center": [
+		"hyprland/workspaces"
+	],
+
+    	"hyprland/workspaces": {
+        "disable-scroll": true,
+        "disable-markup" : false,
+        "format": "  {icon}  ",
+        "icon-size": 150,
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": []
+        }
+    }
+	
+}
+]
