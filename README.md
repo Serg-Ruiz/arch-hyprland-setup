@@ -1,7 +1,7 @@
 # arch-hyprland-setup
 
 # install programs
-pacman -S hypridle hyprlock hyprpaper swaync xorg-xhost timeshift firefox neovim waybar cliphist kvantum nwg-look qt6ct qt5ct tmux rofi zsh 
+pacman -S hypridle hyprlock hyprpaper swaync xorg-xhost timeshift firefox neovim waybar cliphist kvantum nwg-look qt6ct qt5ct tmux rofi zsh papirus-icon-theme
 
 # install yay
 
